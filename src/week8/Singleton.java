@@ -10,7 +10,7 @@ public class Singleton {
 
     public static Singleton getInstance(){
         if (instance == null){
-            synchronized (Singleton.class) {
+            synchronized (Singleton.class) {//it prevents more than one thread create the class
                 if (instance == null) {
                     instance = new Singleton();
                 }

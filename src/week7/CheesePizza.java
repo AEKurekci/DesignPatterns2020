@@ -11,6 +11,6 @@ public class CheesePizza extends Pizza{
 
     @Override
     public void prepare() {
-        System.out.println("NY Style Cheese Pizza is being prepared");
+        System.out.println("Cheese Pizza is being prepared");
     }
 }
